@@ -76,8 +76,8 @@ function SaleList() {
                                     key={index} 
                                     secondaryAction={
                                         <>
-                                            <IconButton className="print-hide" onClick={() => startEdit(sale)}><EditIcon /></IconButton>
-                                            <IconButton className="print-hide" onClick={() => deleteSale(sale.id)}><DeleteIcon /></IconButton>
+                                            <IconButton onClick={() => startEdit(sale)}><EditIcon /></IconButton>
+                                            <IconButton onClick={() => deleteSale(sale.id)}><DeleteIcon /></IconButton>
                                         </>
                                     }
                                     sx={{ mb: 1 }}
